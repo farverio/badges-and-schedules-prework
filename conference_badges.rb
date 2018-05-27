@@ -1,5 +1,8 @@
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+def badge_maker(array)
+  
+
 def batch_badge_creator(array)
   output = []
   
