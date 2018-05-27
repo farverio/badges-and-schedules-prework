@@ -21,6 +21,6 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  print batch_badge_creator(array).with(line.chomp)
-  print assign_rooms(array)
+  batch_badge_creator(array).each {|el| puts el}
+  assign_rooms(array).each {|el| puts el}
 end
